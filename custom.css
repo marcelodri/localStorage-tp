@@ -1,0 +1,49 @@
+body{
+    background: rgba(147,206,222,1);
+    background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 51%, rgba(73,165,191,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(51%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+    background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 51%, rgba(73,165,191,1) 100%);
+    background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 51%, rgba(73,165,191,1) 100%);
+    background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 51%, rgba(73,165,191,1) 100%);
+    background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 51%, rgba(73,165,191,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}
+
+.col-md-6{
+    top: 100px;
+}
+
+
+#lista-tareas{
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+#formulario{
+    border-radius: 4px;
+}
+
+.borrar-tarea{
+    float: right;
+    font-weight: bold;
+}
+
+#titulo-tarea{
+    font-size: 20px;
+}
+
+a{
+    cursor:pointer;
+}
+
+#tarea{
+height: 42px;
+width: 100%;
+}
+
+#btn {
+    margin-top: 20px;
+    width: 50%;
+}
